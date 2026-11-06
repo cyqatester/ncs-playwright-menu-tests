@@ -39,8 +39,9 @@ export class HomePage extends BasePage {
       this.codeOfConductSubMenu = page.getByRole('link', { name: 'Code of Conduct' }).first();
     }
 
-    async open(): Promise<void> {
-        await this.page.goto('/', { waitUntil: 'domcontentloaded' });
+    async open(): Promise<number | undefined> {
+        const response = await this.page.goto('/', { waitUntil: 'domcontentloaded' });
+        return response?.status();
     }
 
     async expectAiProdNavMenuExists(): Promise<void> {
