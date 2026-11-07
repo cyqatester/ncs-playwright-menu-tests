@@ -1,8 +1,8 @@
-Sample Run
-
-https://github.com/user-attachments/assets/44c4c7f8-7ebe-4e5c-b4cd-f27d87b20000
-
 # NCS Singapore – Playwright navigation tests
+
+Sample Automated Test Run
+
+https://github.com/user-attachments/assets/635782be-e61d-4044-a7cc-c39c128c0d23
 
 Playwright + TypeScript project for checking the seven top-level navigation menus on
 https://www.ncs.co/en-sg/. It follows Page Object Model (POM), with page objects
