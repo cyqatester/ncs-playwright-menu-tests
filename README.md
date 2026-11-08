@@ -1,5 +1,9 @@
 # NCS Singapore – Playwright navigation tests
 
+Sample Automated Test Run
+
+https://github.com/user-attachments/assets/635782be-e61d-4044-a7cc-c39c128c0d23
+
 Playwright + TypeScript project for checking the seven top-level navigation menus on
 https://www.ncs.co/en-sg/. It follows Page Object Model (POM), with page objects
 created and injected through a custom Playwright fixture.
