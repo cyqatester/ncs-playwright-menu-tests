@@ -18,7 +18,7 @@ test.describe('NCS Singapore home page navigation', () => {
     });
 
     test('Top Navigation menu is visible on the home page', async ({ homePage }) => {
-        await homePage.expectAiProdNavMenuExists();
+        await homePage.expectAiProductsNavMenuExists();
         await homePage.expectServicesNavMenuExists();
         await homePage.expectIndustriesNavMenuExists();
         await homePage.expectInsightsNavMenuExists();
@@ -28,12 +28,12 @@ test.describe('NCS Singapore home page navigation', () => {
     });
 
     test('Top Navigation menus submenus are visible on the home page', async ({ homePage }) => {
-        await homePage.expectCommanderAiSubMenuExists();
-        await homePage.expectAppComEngSubMenuExists();
-        await homePage.expectCentralGovtSubMenuExists();
+        await homePage.expectasProductsSubMenuExists();
+        await homePage.expectServicesSubMenusExists();
+        await homePage.expectIndustriesSubMenusExists();     
         await homePage.expectPartnersSubMenuExists();
-        await homePage.expectCareersSubMenuExists();
-        await homePage.expectCodeOfConductSubMenuExists();
+        await homePage.expectCareersSubMenusExists();
+        await homePage.expectAboutUsSubMenusExists();
     });
 
 });
